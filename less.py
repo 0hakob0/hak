@@ -29,4 +29,4 @@
 
 # z = x.split()
 # for i in z:
-#     print(dict[i])
+    print(dict[i])

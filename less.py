@@ -126,6 +126,29 @@
 # print(''.join(z))
 
 
-# Խնդիր 139
+# Խնդիր 142
 
-x = input('===> ')
+# x = input('===> ')
+# list = []
+# m = -1
+# for i in x:
+#    list.append(i)	
+# while m < len(list)-1:
+#     m += 1
+#     if list.count(list[m]) > 1:
+#        list.pop(m)
+#        m -= 1
+#     else:
+#        print(len(list))
+
+# Խնդիր 143
+# n = 0
+# list = []
+# while n < 2:
+#     n +=1
+#     x =str(input('===> '))
+#     list.append(x)
+# if list[0] == list[0] [::-1]:
+#     print ('aaa')
+# if list[1] == list[1] [::-1]:
+#     print ('bbb')

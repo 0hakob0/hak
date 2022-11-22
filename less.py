@@ -214,3 +214,41 @@
 
 
 
+
+# '''Խնդիր 98'''
+# list = []
+# x = int(input('===> '))
+# n = 0
+# while x>n:
+#     n +=1
+#     if x % n == 0:
+#         list.append(n)
+#         print(list)
+# if len(list) == 2:
+#     print('True')
+# else:
+#     print('False')
+
+
+
+# '''Խնդիր 99'''
+# list = []
+# x = int(input('===> '))
+# n = 0
+
+# while 'a':
+#     x += 1
+#     break
+
+# while x>n:
+#     n +=1
+#     if x % n == 0:
+#         list.append(n)
+#         # print(list)
+#         if len(list)>2:
+#             n = 0
+#             list =[]
+#             x +=1
+#             continue
+# if len(list) == 2:
+#     print(list[1])

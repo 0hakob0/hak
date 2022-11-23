@@ -152,3 +152,103 @@
 #     print ('aaa')
 # if list[1] == list[1] [::-1]:
 #     print ('bbb')
+
+
+#----------------------------------------------------------------------------------------------------------------------
+
+
+# '''Խնդիր 63'''
+
+
+# a = 0
+# b = 0
+
+# while True:
+#     x = int (input('Գրեք թիվը ===> '))
+#     if x == 0:
+#         break
+
+#     else:
+#         a += x
+#         b += 1
+#         z = (a/b)
+#         print(z)
+
+
+# '''Խնդիր 64'''
+
+# a=0
+# g=-0.5
+# while True:
+#     if a == 5:
+#         break
+#     else:
+#         a += 1
+#         g +=5
+#         print (f'հին գին = {g}   նոր գին = {g-(g*60/100):.2f}')
+       
+
+# '''Խնդիր 69'''
+
+
+# a = 0
+# b = 0
+# c = 0
+# d = 0
+
+
+# while True:
+#     x =input('Գրեք տարիքը ===> ')
+#     if x=='':
+#      break
+#     if int(x) >= 2:
+#         a += 1
+#     if int(x)>=3 and int(x)<=12:
+#         b += 1
+#     if int(x)>=13 and int(x)<=65:    
+#        c += 1
+#     if int(x) > 65:
+#          d += 1
+
+#     print (f'               Մինչև 2 տարեկան {a*0}$\n               3-12 տարեկան {b*14}$\n               13-65 տարեկան {c*23}$\n               65+ տարեկան {d*18}$')
+
+
+
+
+# '''Խնդիր 98'''
+# list = []
+# x = int(input('===> '))
+# n = 0
+# while x>n:
+#     n +=1
+#     if x % n == 0:
+#         list.append(n)
+#         print(list)
+# if len(list) == 2:
+#     print('True')
+# else:
+#     print('False')
+
+
+
+# '''Խնդիր 99'''
+# list = []
+# x = int(input('===> '))
+# n = 0
+
+# while 'a':
+#     x += 1
+#     break
+
+# while x>n:
+#     n +=1
+#     if x % n == 0:
+#         list.append(n)
+#         # print(list)
+#         if len(list)>2:
+#             n = 0
+#             list =[]
+#             x +=1
+#             continue
+# if len(list) == 2:
+#     print(list[1])

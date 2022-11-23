@@ -252,6 +252,7 @@
 #             continue
 # if len(list) == 2:
 #     print(list[1])
+<<<<<<< HEAD
 
 # import random
 # set = {}

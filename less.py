@@ -252,3 +252,139 @@
 #             continue
 # if len(list) == 2:
 #     print(list[1])
+
+# import random
+# set = {}
+# z = ''
+# list = []
+# while len(set) < 10:
+#     x = random.randint (33, 127)
+
+# mylist = [1, 1, 2, 3, 7, 4, 5, 1, 2]
+# print(list(set(mylist)))
+
+
+
+
+# '''Խնդիր 100'''
+
+# import random
+
+# z = ''
+# list = []
+# while len(set(list)) < 10:
+#     x = random.randint (33, 126)
+#     list.append(chr(x).lower())
+# print(set(list))
+
+
+
+# '''Խնդիր 101'''
+
+# import random
+# list = []
+# list1 = []
+# list2 = []
+# s3 = ''
+# s4 = ''
+# n = -1
+
+# while n < 2:
+#     n+=1
+    
+#     x = random.randint (48, 57)
+#     y = random.randint (65, 90)
+#     list.append(chr(y))
+#     list1.append(chr(x))
+#     list2 = list+list1
+# for i in list2:
+#     s3 += i
+
+# if n == 2:
+#     list.clear()
+#     list1.clear()
+#     list2.clear()
+#     n = 0
+#     while n < 4:
+#         n+=1
+#         x = random.randint (48, 57)
+#         y = random.randint (65, 90)
+#         list.append(chr(y))
+#         list1.append(chr(x))
+#         list2 = list1+list[:3]
+#     for i in list2:
+#         s4 += i
+# print(s3,s4)
+
+
+# '''Խնդիր 146'''
+
+# '''Խնդիր 77'''
+bb = 0
+ii = 0
+nn = 0
+gg = 0
+oo = 0
+listb = []
+listi = []
+listn =[]
+listg =[]
+listo =[]
+
+import random
+
+# print (f' {" ":>0}', end='' )
+
+# for i in range(1, 11):
+#     print(f'{i:>3}', end='')
+#     # print('\n')
+
+
+
+
+# while bb<15:
+#     bb += 1
+#     bbb = random.randint(1, 15)
+#     listb.append(bbb)
+# for b in listb:
+#     print(f'{b :>7}', end ='')
+
+# while ii < 15:
+#     ii += 1
+#     iii = random.randint(16, 30)
+#     listi.append(iii)
+# print (f' {"  ":>7}', end='' )
+# print('\n')
+# for i in listi:
+#     print(f'{i :>7}', end ='')
+
+# while nn < 15:
+#     nn += 1
+#     nnn = random.randint(31, 45)
+#     listn.append(nnn)
+# print (f' {"  ":>4}', end='' )
+# print('\n')
+# for n in listn:
+#     print(f'{n :>7}', end ='')
+
+# while gg < 15:
+#     gg += 1
+#     ggg = random.randint(46, 60)
+#     listg.append(ggg)
+# print (f' {"  ":>4}', end='' )
+# print('\n')
+# for g in listg:
+#     print(f'{g :>7}', end ='')
+
+# while oo < 15:
+#     oo += 1
+#     ooo = random.randint(61, 75)
+#     listo.append(ooo)
+# print (f' {"  ":>4}', end='' )
+# print('\n')
+# for o in listo:
+#     print(f'{o :>7}', end ='')
+
+
+
+

@@ -367,3 +367,22 @@
 #
 #
 # print(task())
+
+
+
+
+
+
+"""1"""
+
+
+def task():
+    print('Python')
+    x = 0
+
+    if x < 5:
+        x += 1
+        task()
+
+
+task()

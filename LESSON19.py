@@ -269,3 +269,35 @@
 # print(task())
 
 
+"""8"""
+
+
+# def task():
+#     a = int(input('4==> '))
+#     b = int(input('5==> '))
+#
+#     if b % 10 > a // 10 % 10:
+#         print(b)
+#     else:
+#         print(a // 1000)
+#
+#
+# task()
+
+
+"""Return"""
+
+
+# def task():
+#     a = int(input('4==> '))
+#     b = int(input('5==> '))
+#
+#     if b % 10 > a // 10 % 10:
+#         return b
+#     else:
+#         return a // 1000
+#
+#
+# print(task())
+
+

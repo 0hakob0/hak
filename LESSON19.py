@@ -301,3 +301,69 @@
 # print(task())
 
 
+"""9"""
+
+
+# def task():
+#     a = int(input('4==> '))
+#     b = int(input('5==> '))
+#     y = 1
+#     if (a // 1000) + (a // 100 % 10) + (a // 10 % 10) + (a % 10) >= (b // 10000) + (b // 1000 % 10) + (b // 100 % 10) + (b // 10 % 10) + (b % 10):
+#         print(y)
+#     else:
+#         y = 0
+#         print(y)
+#
+#
+# task()
+
+
+"""Return"""
+
+
+# def task():
+#     a = int(input('4==> '))
+#     b = int(input('5==> '))
+#     y = 1
+#     if (a // 1000) + (a // 100 % 10) + (a // 10 % 10) + (a % 10) >= (b // 10000) + (b // 1000 % 10) + (b // 100 % 10) + (b // 10 % 10) + (b % 10):
+#         return y
+#     else:
+#         y = 0
+#         return y
+#
+#
+# print(task())
+
+
+"""10"""
+
+
+# def task():
+#     a = int(input('4==> '))
+#     b = int(input('5==> '))
+#     if (a // 1000) * (a // 100 % 10) * (a // 10 % 10) * (a % 10) > b:
+#         y = 0
+#         print(y)
+#     else:
+#         y = 1
+#         print(y)
+#
+#
+# task()
+
+
+"""Return"""
+
+
+# def task():
+#     a = int(input('4==> '))
+#     b = int(input('5==> '))
+#     if (a // 1000) * (a // 100 % 10) * (a // 10 % 10) * (a % 10) > b:
+#         y = 0
+#         return y
+#     else:
+#         y = 1
+#         return y
+#
+#
+# print(task())

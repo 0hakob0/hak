@@ -32,7 +32,7 @@
 
 
 """1"""
-
+# import math
 
 # def task():
 #     a = int(input('4==> '))
@@ -369,20 +369,27 @@
 # print(task())
 
 
+"""15"""
+
+import math
+
+x= int(input('===>'))
 
 
+def task(x, pop):
+    pop1 = pop(x)
+
+    print(pop1)
+
+def task1(x):
 
 
-"""1"""
+    if -2 <= x < 0:
+        return f'y = {math.tan(x) / (x - 3)}'
+    elif 0 <= x <= 2:
+        return f'y = {math.log(10, x) * math.sin(x)}'
 
 
-def task():
-    print('Python')
-    x = 0
-
-    if x < 5:
-        x += 1
-        task()
+task(x, task1)
 
 
-task()

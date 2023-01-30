@@ -72,7 +72,6 @@
 
 """2"""
 
-
 # def task():
 #     a = int(input('4==> '))
 #     b = int(input('5==> '))
@@ -88,7 +87,6 @@
 
 """Return"""
 
-
 # def task():
 #     a = int(input('4==> '))
 #     b = int(input('5==> '))
@@ -103,7 +101,6 @@
 
 
 """3"""
-
 
 # def task():
 #     a = int(input('4==> '))
@@ -123,7 +120,6 @@
 # task()
 
 """Return"""
-
 
 # def task():
 #     a = int(input('4==> '))
@@ -145,7 +141,6 @@
 
 """4"""
 
-
 # def task():
 #     a = int(input('4==> '))
 #     b = int(input('5==> '))
@@ -160,7 +155,6 @@
 
 """Return"""
 
-
 # def task():
 #     a = int(input('4==> '))
 #     b = int(input('5==> '))
@@ -174,7 +168,6 @@
 
 
 """5"""
-
 
 # def task():
 #     a = int(input('4==> '))
@@ -191,7 +184,6 @@
 
 """Return"""
 
-
 # def task():
 #     a = int(input('4==> '))
 #     b = int(input('5==> '))
@@ -206,7 +198,6 @@
 
 
 """6"""
-
 
 # def task():
 #     a = int(input('4==> '))
@@ -223,7 +214,6 @@
 
 """Return"""
 
-
 # def task():
 #     a = int(input('4==> '))
 #     b = int(input('5==> '))
@@ -237,7 +227,6 @@
 # print(task())
 
 """7"""
-
 
 # def task():
 #     a = int(input('4==> '))
@@ -255,7 +244,6 @@
 
 """Return"""
 
-
 # def task():
 #     a = int(input('4==> '))
 #     b = int(input('5==> '))
@@ -270,7 +258,6 @@
 
 
 """8"""
-
 
 # def task():
 #     a = int(input('4==> '))
@@ -287,7 +274,6 @@
 
 """Return"""
 
-
 # def task():
 #     a = int(input('4==> '))
 #     b = int(input('5==> '))
@@ -302,7 +288,6 @@
 
 
 """9"""
-
 
 # def task():
 #     a = int(input('4==> '))
@@ -319,7 +304,6 @@
 
 
 """Return"""
-
 
 # def task():
 #     a = int(input('4==> '))
@@ -337,7 +321,6 @@
 
 """10"""
 
-
 # def task():
 #     a = int(input('4==> '))
 #     b = int(input('5==> '))
@@ -353,7 +336,6 @@
 
 
 """Return"""
-
 
 # def task():
 #     a = int(input('4==> '))
@@ -371,25 +353,103 @@
 
 """15"""
 
-import math
+# import math
+#
+# x = int(input('===>'))
+#
+#
+# def task(x, pop):
+#
+#     pop1 = pop(x)
+#
+#     print(pop1)
+#
+#
+# def task1(x):
+#
+#
+#     if -2 <= x < 0:
+#         return f'y = {math.tan(x) / (x - 3)}'
+#     elif 0 <= x <= 2:
+#         return f'y = {math.log(10, x) * math.sin(x)}'
+#
+#
+# task(x, task1)
 
-x= int(input('===>'))
+
+"""16"""
+
+# import math
+#
+# y = int(input('===> '))
+#
+#
+# def task(x, pop):
+#     pop1 = pop(x)
+#
+#     print(pop1)
+#
+#
+# def task1(x):
+#     if 1 <= x < 2:
+#         return f'y = {(1 / math.atan(x)) + (math.pi / 3)}'
+#     elif 2 <= x <= 3:
+#         return f'y = {(1 - (5 * x)) * math.sqrt(math.sin(x))}'
+#
+#
+# task(y, task1)
 
 
-def task(x, pop):
-    pop1 = pop(x)
+"""17"""
 
-    print(pop1)
+# import math
+#
+# y = int(input('==> '))
+#
+#
+# def task(x, pop):
+#     a = (math.sin(0.1 * x) / (x - 2)) + math.sqrt(x)
+#     b = (math.cos(x)) - x ** 3.5
+#     pop1 = pop(x)
+#     print(pop1)
+#
+#
+# def task1(x):
+#     a = (math.sin(0.1 * x) / (x - 2)) + math.sqrt(x)
+#     b = (math.cos(x)) - x ** 3.5
+#
+#     if 10 <= x < 20:
+#         return f'y = {a}'
+#     if 20 <= x <= 30:
+#         return f'y = {b}'
+#
+#
+# task(y, task1)
 
-def task1(x):
+
+"""18"""
+
+# import math
+# y = int(input('==> '))
+#
+#
+# def task(x, pop):
+#
+#     pop1 = pop(x)
+#     print(pop1)
+#
+#
+# def task1(x):
+#     a = math.log(10, abs(1 + (2 * x)))
+#     b = math.exp(1 / math.atan(x))
+#     bb = math.sin(x) / (1 + (1 / x))
+#     if -5 <= x < 0:
+#         return f'y = {a}'
+#     elif 0 <= x <= 5:
+#         return f'y = {b * bb}'
+#
+#
+# task(y, task1)
 
 
-    if -2 <= x < 0:
-        return f'y = {math.tan(x) / (x - 3)}'
-    elif 0 <= x <= 2:
-        return f'y = {math.log(10, x) * math.sin(x)}'
-
-
-task(x, task1)
-
-
+"""19"""

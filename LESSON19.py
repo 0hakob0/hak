@@ -453,3 +453,25 @@
 
 
 """19"""
+import  math
+y = int(input('==> '))
+
+
+def task(x, pop):
+    pop1 = pop(x)
+    print(pop1)
+
+
+def task1(x):
+    a = math.tan(x) / (1 + math.tan(2 * x))
+    b = math.log(10, x) ** 2.5
+
+    if -2 <= x <= 1:
+        return f'y = {a}'
+    elif 1 < x <= 4:
+        return f'y = {b}'
+
+
+task(y, task1)
+
+

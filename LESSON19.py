@@ -499,8 +499,7 @@
 
 
 """21"""
-import math
-
+# import math
 # y = float(input('==> '))
 #
 #
@@ -594,3 +593,176 @@ import math
 #
 #
 # task(y, task1)
+
+
+"""1"""
+
+
+# def task1():
+#     n = int(input('n ==> '))
+#     for i in range(100, 201):
+#         if i % n == 0:
+#             print(i)
+#
+#
+# task1()
+
+
+"""2"""
+
+
+# def task2():
+#     k = 1
+#     n = int(input('n ==> '))
+#     for i in range(10, 51):
+#         if i % n == 0:
+#             k *= i
+#             print(k)
+#
+#
+# task2()
+
+"""3"""
+
+
+# def task3():
+#     k = 0
+#     n = int(input('n ==> '))
+#     for i in range(200, 501):
+#         if i % n == 2:
+#             k += i
+#             print(k)
+#
+#
+# task3()
+
+
+"""4"""
+
+
+# def task4():
+#     k = 1
+#     n = int(input('n ==> '))
+#     for i in range(-20, 20):
+#         if i % n == 3:
+#             k *= i
+#             print(k)
+#
+#
+# task4()
+
+
+"""5"""
+
+
+# def task5():
+#     k = 0
+#     for i in range(10, 100):
+#         if i % 2 == 0:
+#             k += i
+#     print(k)
+#
+#
+# task5()
+
+
+"""6"""
+
+
+# def task6():
+#     k = 1
+#     for i in range(20, 71):
+#         if i % 2 == 0 and i % 4 == 0:
+#             k *= i
+#     print(k)
+#
+#
+# task6()
+
+
+"""7"""
+
+
+# def task7():
+#     k = 0
+#     n = int(input('n ==> '))
+#     for i in range(1, 100):
+#         if i % n == 0:
+#             k += i
+#     print(k)
+#
+#
+# task7()
+
+
+"""8"""
+
+
+# def task8():
+#     k = 1
+#     n = int(input('n ==> '))
+#     for i in range(1, 100):
+#         if i % n == 0:
+#             k *= i
+#     print(k)
+#
+#
+# task8()
+
+
+"""9"""
+
+
+# def task9():
+#     k = 0
+#     n = int(input('n ==> '))
+#     for i in range(1000, 2001):
+#         if i % n == 2:
+#             k += i
+#     print(k)
+#
+#
+# task9()
+
+
+"""10"""
+
+
+# def task10():
+#     k = 1
+#     n = int(input('n ==> '))
+#     for i in range(2, 103):
+#         if i % n == 3:
+#             k *= i
+#     print(k)
+#
+#
+# task10()
+
+
+"""11"""
+
+
+# def task11():
+#     k = 0
+#     for i in range(100, 1000):
+#         if i % 3 == 0:
+#             k += i
+#     print(k)
+#
+#
+# task11()
+
+
+"""12"""
+
+
+# def task12():
+#     k = 1
+#     for i in range(1000, 10000):
+#         if i % 3 == 0 and i % 5 == 0:
+#             k *= i
+#             print(k)
+#
+#
+# task12()

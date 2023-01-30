@@ -32,6 +32,7 @@
 
 
 """1"""
+
 # import math
 
 # def task():
@@ -477,21 +478,119 @@
 
 """20"""
 
+# import math
+#
+# y = float(input('==> '))
+#
+#
+# def task(x, pop):
+#     pop1 = pop(x)
+#     print(pop1)
+#
+#
+# def task1(x):
+#     if 0.1 <= x <= 1:
+#         return f'y = {math.sin(x) / (x + math.cos(x))}'
+#     elif 1 < x <= 1.9:
+#         return f'y = {(x**3) + (2 * (x ** 2)) + (3 * x) + 4}'
+#
+#
+# task(y, task1)
+
+
+"""21"""
 import math
 
-y = float(input('==> '))
+# y = float(input('==> '))
+#
+#
+# def task(x, pop):
+#
+#     pop1 = pop(x)
+#     print(pop1)
+#
+#
+# def task1(x):
+#     a = 1 - (x / ((1 + x) ** 1/5))
+#     b = 100 * (math.log(10, x) + math.sin(x))
+#     bb = ((2 * x) - 3) ** 2
+#
+#     if 1.5 <= x <= 2.5:
+#         return f'y = {a}'
+#     if 2.5 < x <= 3.5:
+#         return f'y = {b / bb}'
+#
+#
+# task(y, task1)
 
 
-def task(x, pop):
-    pop1 = pop(x)
-    print(pop1)
+"""22"""
+# import math
+#
+# y = float(input('==> '))
+#
+#
+# def task(x, pop):
+#     pop1 = pop(x)
+#     print(pop1)
+#
+#
+# def task1(x):
+#     a = math.log(10, (3 + x) * (x ** 2))
+#     aa = math.cos(math.pi * x)
+#     b = x ** 5 - math.tan(x)
+#     bb = math.log(10, x)
+#     if 0.2 <= x <= 0.4:
+#         return f'y = {a / aa}'
+#     elif 0.4 < x <= 0.6:
+#         return f'y = {b / bb}'
+#
+#
+# task(y, task1)
 
 
-def task1(x):
-    if 0.1 <= x <= 1:
-        return f'y = {math.sin(x) / (x + math.cos(x))}'
-    elif 1 < x <= 1.9:
-        return f'y = {(x**3) + (2 * (x ** 2)) + (3 * x) + 4}'
+"""23"""
+
+# import math
+# y = float(input('==> '))
+#
+#
+# def task(x, pop):
+#     pop1 = pop(x)
+#     print(pop1)
+#
+#
+# def task1(x):
+#     a = (5 * x) - math.exp(3 * x) + math.cos(x)
+#     aa = 1 + math.log(10, x)
+#     b = (1 + x) ** 6
+#     if 0.3 <= x <= 0.4:
+#         return f'y = {100 * (a / aa)}'
+#     elif 0.4 < x <= 0.6:
+#         return f'y = {b}'
+#
+#
+# task(y, task1)
 
 
-task(y, task1)
+# """24"""
+# import math
+# y = float(input('==> '))
+#
+#
+# def task(x, pop):
+#     pop1 = pop(x)
+#     print(pop1)
+#
+#
+# def task1(x):
+#     a = ((1 + x) ** (1 / 6))
+#     b = ((2 / 3) - (3 ** (2 * x))) * math.cos(x)
+#     bb = math.sqrt(x + 2)
+#     if 2 <= x <= 3:
+#         return f'y = {a}'
+#     elif 3 < x <= 4:
+#         return f'y = {b / bb}'
+#
+#
+# task(y, task1)

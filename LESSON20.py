@@ -29,8 +29,6 @@
 # n = 5
 
 
-
-
 # def outer():
 #     n = 5
 #
@@ -287,24 +285,24 @@
 """6"""
 
 
-def task1():
-    n = int(input('==> '))
-    count = 0
-    k = 0
-    def task11():
-        nonlocal n
-        nonlocal count
-        nonlocal k
-        while n != 0:
-            x = n % 10
-            y = n // 10
-            n = y
-            k += x * (10 ** count)
-            count += 1
-        print(k)
-    return task11
-
-
-fn = task1()
-fn()
-
+# def task1():
+#     n = int(input('==> '))
+#     count = 0
+#     k = 0
+#
+#     def task11():
+#         nonlocal n
+#         nonlocal count
+#         nonlocal k
+#         while n != 0:
+#             x = n % 10
+#             y = n // 10
+#             n = y
+#             k += x * (10 ** count)
+#             count += 1
+#         print(k)
+#     return task11
+#
+#
+# fn = task1()
+# fn()
